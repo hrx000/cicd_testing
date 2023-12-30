@@ -25,7 +25,7 @@ jobs:
 
       - name: Run tests
         run: |
-          python test_script.py  # Replace with your test command
+          python app.py  # Replace with your test command
 
       - name: Deploy
         run: |
